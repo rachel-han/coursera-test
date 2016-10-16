@@ -1,0 +1,35 @@
+
+.container-fluid{
+	overflow-y:scroll;
+	overflow-x: none;
+	width:100%;
+}
+h3{
+	margin-top: 5px;
+}
+h3,p{
+	text-align: center;
+}
+
+.menubox{
+	background: #eee;
+	border: 1px;
+	border-color: #ccc;
+    scroll-behavior: ;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+	.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+  width: 70%;
+}
+}
+
+@media (max-width: 767px) {
+	.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+ 	 width: 80%;
+ 	 float: none;
+    margin: 0 auto;
+	}
+}
